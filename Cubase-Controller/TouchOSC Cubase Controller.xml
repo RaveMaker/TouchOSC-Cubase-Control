@@ -3,7 +3,7 @@
 <ctrltable name="Standard MIDI">
 <ctrl><name>Modulation</name><stat>176</stat><chan>15</chan><addr>1</addr><max>127</max><flags>11</flags></ctrl>
 <ctrl><name>Volume</name><stat>176</stat><chan>15</chan><addr>7</addr><max>127</max><flags>11</flags></ctrl>
-<ctrl><name>LED1</name><stat>176</stat><chan>15</chan><addr>7</addr><max>126</max><flags>2</flags></ctrl>
+<ctrl><name>LED1</name><stat>176</stat><chan>14</chan><addr>7</addr><max>126</max><flags>2</flags></ctrl>
 <ctrl><name>Pan</name><stat>176</stat><chan>15</chan><addr>10</addr><max>126</max><flags>11</flags></ctrl>
 <ctrl><name>Track Name</name><stat>176</stat><chan>1</chan><addr>9</addr><max>127</max><flags>11</flags></ctrl>
 <ctrl><name>Cycle</name><stat>176</stat><chan>1</chan><addr>85</addr><max>127</max><flags>3</flags></ctrl>
