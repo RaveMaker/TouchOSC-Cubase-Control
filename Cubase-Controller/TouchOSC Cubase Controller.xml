@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<remotedescription version="1.1">
+<ctrltable name="Standard MIDI">
+<ctrl><name>Modulation</name><stat>176</stat><chan>15</chan><addr>1</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Volume</name><stat>176</stat><chan>15</chan><addr>7</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>LED1</name><stat>176</stat><chan>15</chan><addr>7</addr><max>126</max><flags>2</flags></ctrl>
+<ctrl><name>Pan</name><stat>176</stat><chan>15</chan><addr>10</addr><max>126</max><flags>11</flags></ctrl>
+<ctrl><name>Track Name</name><stat>176</stat><chan>1</chan><addr>9</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Cycle</name><stat>176</stat><chan>1</chan><addr>85</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Stop</name><stat>176</stat><chan>1</chan><addr>86</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Start</name><stat>176</stat><chan>1</chan><addr>87</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Record</name><stat>176</stat><chan>1</chan><addr>88</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Undo</name><stat>176</stat><chan>1</chan><addr>89</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Read</name><stat>176</stat><chan>1</chan><addr>20</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Write</name><stat>176</stat><chan>1</chan><addr>21</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Mute</name><stat>176</stat><chan>1</chan><addr>22</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Solo</name><stat>176</stat><chan>1</chan><addr>23</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Monitor</name><stat>176</stat><chan>1</chan><addr>24</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Rewind</name><stat>176</stat><chan>1</chan><addr>25</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>F Forward</name><stat>176</stat><chan>1</chan><addr>26</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Previous</name><stat>176</stat><chan>1</chan><addr>27</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Next</name><stat>176</stat><chan>1</chan><addr>28</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Previous Preset</name><stat>176</stat><chan>1</chan><addr>29</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Next Preset</name><stat>176</stat><chan>1</chan><addr>30</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Up</name><stat>176</stat><chan>1</chan><addr>102</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Down</name><stat>176</stat><chan>1</chan><addr>103</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Left</name><stat>176</stat><chan>1</chan><addr>104</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Right</name><stat>176</stat><chan>1</chan><addr>105</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Zoom In</name><stat>176</stat><chan>1</chan><addr>106</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Zoom out</name><stat>176</stat><chan>1</chan><addr>107</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Quick</name><stat>176</stat><chan>1</chan><addr>108</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Channel Strip</name><stat>176</stat><chan>1</chan><addr>109</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>VST Instrument</name><stat>176</stat><chan>1</chan><addr>110</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Edit</name><stat>176</stat><chan>1</chan><addr>111</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Exit</name><stat>176</stat><chan>1</chan><addr>112</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Transpose</name><stat>176</stat><chan>1</chan><addr>113</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mixer</name><stat>176</stat><chan>1</chan><addr>114</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Delete</name><stat>176</stat><chan>1</chan><addr>115</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Mixdown</name><stat>176</stat><chan>1</chan><addr>116</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Media Bay</name><stat>176</stat><chan>1</chan><addr>117</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 1</name><stat>176</stat><chan>2</chan><addr>102</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 2</name><stat>176</stat><chan>2</chan><addr>103</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 3</name><stat>176</stat><chan>2</chan><addr>104</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 4</name><stat>176</stat><chan>2</chan><addr>105</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 5</name><stat>176</stat><chan>2</chan><addr>106</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 6</name><stat>176</stat><chan>2</chan><addr>107</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 7</name><stat>176</stat><chan>2</chan><addr>108</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 8</name><stat>176</stat><chan>2</chan><addr>109</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 1 Enable</name><stat>176</stat><chan>2</chan><addr>110</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Send 2 Enable</name><stat>176</stat><chan>2</chan><addr>111</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Send 3 Enable</name><stat>176</stat><chan>2</chan><addr>112</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Send 4 Enable</name><stat>176</stat><chan>2</chan><addr>113</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Send 5 Enable</name><stat>176</stat><chan>2</chan><addr>114</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 6 Enable</name><stat>176</stat><chan>2</chan><addr>115</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 7 Enable</name><stat>176</stat><chan>2</chan><addr>116</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Send 8 Enable</name><stat>176</stat><chan>2</chan><addr>117</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Quick Ctl 1</name><stat>176</stat><chan>2</chan><addr>20</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Quick Ctl 2</name><stat>176</stat><chan>2</chan><addr>21</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Quick Ctl 3</name><stat>176</stat><chan>2</chan><addr>22</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Quick Ctl 4</name><stat>176</stat><chan>2</chan><addr>23</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Quick Ctl 5</name><stat>176</stat><chan>2</chan><addr>24</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Quick Ctl 6</name><stat>176</stat><chan>2</chan><addr>25</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Quick Ctl 7</name><stat>176</stat><chan>2</chan><addr>26</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Quick Ctl 8</name><stat>176</stat><chan>2</chan><addr>27</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Gate Threshold</name><stat>176</stat><chan>3</chan><addr>20</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Gate Range</name><stat>176</stat><chan>3</chan><addr>21</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Gate Attack</name><stat>176</stat><chan>3</chan><addr>22</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Gate Release</name><stat>176</stat><chan>3</chan><addr>23</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Gate Auto Release</name><stat>176</stat><chan>3</chan><addr>24</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Gate Freq</name><stat>176</stat><chan>3</chan><addr>25</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Gate Q</name><stat>176</stat><chan>3</chan><addr>26</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Gate Activate Filter</name><stat>176</stat><chan>3</chan><addr>27</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Gate Listen Filter</name><stat>176</stat><chan>3</chan><addr>28</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Comp Threshold</name><stat>176</stat><chan>3</chan><addr>102</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Comp Ratio</name><stat>176</stat><chan>3</chan><addr>103</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Comp Attack</name><stat>176</stat><chan>3</chan><addr>104</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Comp Release</name><stat>176</stat><chan>3</chan><addr>105</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Comp Makeup</name><stat>176</stat><chan>3</chan><addr>106</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Comp Auto Release</name><stat>176</stat><chan>3</chan><addr>107</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Comp Auto Makeup</name><stat>176</stat><chan>3</chan><addr>108</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Comp Mix</name><stat>176</stat><chan>3</chan><addr>109</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Comp Input</name><stat>176</stat><chan>3</chan><addr>110</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 1 Enable</name><stat>176</stat><chan>4</chan><addr>20</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 1 Type</name><stat>176</stat><chan>4</chan><addr>21</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 1 Gain</name><stat>176</stat><chan>4</chan><addr>22</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 1 Frequency</name><stat>176</stat><chan>4</chan><addr>23</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 1 Q</name><stat>176</stat><chan>4</chan><addr>24</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 2 Enable</name><stat>176</stat><chan>4</chan><addr>25</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 2 Type</name><stat>176</stat><chan>4</chan><addr>26</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 2 Gain</name><stat>176</stat><chan>4</chan><addr>27</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 2 Frequency</name><stat>176</stat><chan>4</chan><addr>28</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 2 Q</name><stat>176</stat><chan>4</chan><addr>29</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 3 Enable</name><stat>176</stat><chan>4</chan><addr>102</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 3 Type</name><stat>176</stat><chan>4</chan><addr>103</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 3 Gain</name><stat>176</stat><chan>4</chan><addr>104</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 3 Frequency</name><stat>176</stat><chan>4</chan><addr>105</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 3 Q</name><stat>176</stat><chan>4</chan><addr>106</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 4 Enable</name><stat>176</stat><chan>4</chan><addr>107</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 4 Type</name><stat>176</stat><chan>4</chan><addr>108</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 4 Gain</name><stat>176</stat><chan>4</chan><addr>109</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 4 Frequency</name><stat>176</stat><chan>4</chan><addr>110</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Eq 4 Q</name><stat>176</stat><chan>4</chan><addr>111</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Learn Fader 1</name><stat>176</stat><chan>5</chan><addr>20</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Learn Fader 2</name><stat>176</stat><chan>5</chan><addr>21</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Learn Fader 3</name><stat>176</stat><chan>5</chan><addr>22</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Learn Fader 4</name><stat>176</stat><chan>5</chan><addr>23</addr><max>127</max><flags>11</flags></ctrl>
+<ctrl><name>Learn Push 1</name><stat>176</stat><chan>5</chan><addr>24</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Learn Push 2</name><stat>176</stat><chan>5</chan><addr>25</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Learn Toggle 1</name><stat>176</stat><chan>5</chan><addr>26</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Learn Toggle 2</name><stat>176</stat><chan>5</chan><addr>27</addr><max>127</max><flags>3</flags></ctrl>
+</ctrltable>
+<bank name="Selected">
+<entry ctrl="Modulation">
+</entry>
+<entry ctrl="Volume">
+<value><device>VST Mixer</device><chan>-2</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan">
+<value><device>VST Mixer</device><chan>-2</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Mute">
+<value><device>VST Mixer</device><chan>-2</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Record">
+<value><device>Transport</device><chan>-1</chan><tag>4019</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Start">
+<value><device>Transport</device><chan>-1</chan><tag>4015</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Cycle">
+<value><device>Transport</device><chan>-1</chan><tag>4022</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Stop">
+<value><device>Transport</device><chan>-1</chan><tag>4016</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Rewind">
+<value><device>Transport</device><chan>-1</chan><tag>4018</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="F Forward">
+<value><device>Transport</device><chan>-1</chan><tag>4017</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Previous">
+<value><device>Transport</device><chan>-1</chan><tag>4</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Next">
+<value><device>Transport</device><chan>-1</chan><tag>3</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Write">
+<value><device>VST Mixer</device><chan>-2</chan><name>writeEnable</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Read">
+<value><device>VST Mixer</device><chan>-2</chan><name>readEnable</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Solo">
+<value><device>VST Mixer</device><chan>-2</chan><name>solo</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Up">
+<command><category>Navigate</category><action>Up</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Down">
+<command><category>Navigate</category><action>Down</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Left">
+<command><category>Navigate</category><action>Left</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Right">
+<command><category>Navigate</category><action>Right</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Quick">
+<command><category>Inspector</category><action>Toggle Quick Controls Section</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Transpose">
+<command><category>MIDI</category><action>Transpose</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Mixer">
+<command><category>Devices</category><action>Mixer</action><flags>1</flags></command>
+</entry>
+<entry ctrl="VST Instrument">
+<command><category>Edit</category><action>Edit VST Instrument</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Zoom In">
+<command><category>Zoom</category><action>Zoom In</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Zoom out">
+<command><category>Zoom</category><action>Zoom Out</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Undo">
+<command><category>Edit</category><action>Undo</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Delete">
+<command><category>Edit</category><action>Delete</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Mixdown">
+<command><category>File</category><action>Export Audio Mixdown</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Channel Strip">
+<command><category>Edit</category><action>Edit Channel Settings</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Edit">
+<command><category>Edit</category><action>Open</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Exit">
+<command><category>File</category><action>Close</action><flags>1</flags></command>
+</entry>
+<entry ctrl="LED1">
+<value><device>VST Mixer</device><chan>-2</chan><name>allMeter</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Media Bay">
+<command><category>Media</category><action>Open MediaBay</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Monitor">
+<value><device>VST Mixer</device><chan>-2</chan><name>monitor</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Track Name">
+<value><device>Mixer</device><chan>-2</chan><name>selected</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Previous Preset">
+<command><category>Preset</category><action>Previous</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Next Preset">
+<command><category>Preset</category><action>Next</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Gate Threshold">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param0</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Range">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Attack">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Auto Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param4</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Activate Filter">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param9</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Listen Filter">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param10</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Freq">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param13</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Threshold">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param0</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Ratio">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Attack">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Makeup">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param6</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Auto Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param4</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Comp Auto Makeup">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param7</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Comp Mix">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param11</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Input">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param9</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 1 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param10</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 1 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param11</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param13</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param14</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 2 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param15</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 2 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param16</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param17</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param18</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param19</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 3 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param20</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 3 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param21</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param22</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param23</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param24</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 4 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param25</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 4 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param26</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param27</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param28</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 1">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 2">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 3">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot3:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 4">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot4:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 5">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot5:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 6">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot6:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 7">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot7:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 8">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot8:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 1 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot1:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 2 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot2:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 3 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot3:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 4 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot4:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 5 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot5:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 6 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot6:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 7 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot7:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 8 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot8:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 1">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 2">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 3">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 4">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl4</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 5">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl5</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 6">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl6</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 7">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl7</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 8">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl8</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Learn Fader 1">
+</entry>
+<entry ctrl="Learn Fader 2">
+</entry>
+<entry ctrl="Learn Fader 3">
+</entry>
+<entry ctrl="Learn Fader 4">
+</entry>
+<entry ctrl="Learn Push 1">
+</entry>
+<entry ctrl="Learn Push 2">
+</entry>
+<entry ctrl="Learn Toggle 1">
+</entry>
+<entry ctrl="Learn Toggle 2">
+</entry>
+</bank>
+<bank name="VST 17-32">
+<entry ctrl="Modulation">
+</entry>
+<entry ctrl="Volume">
+<value><device>VST Mixer</device><chan>-2</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan">
+<value><device>VST Mixer</device><chan>-2</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Mute">
+<value><device>VST Mixer</device><chan>-2</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Record">
+<value><device>Transport</device><chan>-1</chan><tag>4019</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Start">
+<value><device>Transport</device><chan>-1</chan><tag>4015</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Cycle">
+<value><device>Transport</device><chan>-1</chan><tag>4022</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Stop">
+<value><device>Transport</device><chan>-1</chan><tag>4016</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Rewind">
+<value><device>Transport</device><chan>-1</chan><tag>4018</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="F Forward">
+<value><device>Transport</device><chan>-1</chan><tag>4017</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Previous">
+<value><device>Transport</device><chan>-1</chan><tag>4</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Next">
+<value><device>Transport</device><chan>-1</chan><tag>3</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Write">
+<value><device>VST Mixer</device><chan>-2</chan><name>writeEnable</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Read">
+<value><device>VST Mixer</device><chan>-2</chan><name>readEnable</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Solo">
+<value><device>VST Mixer</device><chan>-2</chan><name>solo</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Up">
+<command><category>Navigate</category><action>Up</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Down">
+<command><category>Navigate</category><action>Down</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Left">
+<command><category>Navigate</category><action>Left</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Right">
+<command><category>Navigate</category><action>Right</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Quick">
+<command><category>Inspector</category><action>Toggle Quick Controls Section</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Transpose">
+<command><category>MIDI</category><action>Transpose</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Mixer">
+<command><category>Devices</category><action>Mixer</action><flags>1</flags></command>
+</entry>
+<entry ctrl="VST Instrument">
+<command><category>Edit</category><action>Edit VST Instrument</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Zoom In">
+<command><category>Zoom</category><action>Zoom In</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Zoom out">
+<command><category>Zoom</category><action>Zoom Out</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Undo">
+<command><category>Edit</category><action>Undo</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Delete">
+<command><category>Edit</category><action>Delete</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Mixdown">
+<command><category>File</category><action>Export Audio Mixdown</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Channel Strip">
+<command><category>Edit</category><action>Edit Channel Settings</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Edit">
+<command><category>Edit</category><action>Open</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Exit">
+<command><category>File</category><action>Close</action><flags>1</flags></command>
+</entry>
+<entry ctrl="LED1">
+<value><device>VST Mixer</device><chan>-2</chan><name>allMeter</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Media Bay">
+<command><category>Media</category><action>Open MediaBay</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Monitor">
+<value><device>VST Mixer</device><chan>-2</chan><name>monitor</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Track Name">
+<value><device>Mixer</device><chan>-2</chan><name>selected</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Previous Preset">
+<command><category>Preset</category><action>Previous</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Next Preset">
+<command><category>Preset</category><action>Next</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Gate Threshold">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param0</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Range">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Attack">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Auto Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param4</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Activate Filter">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param9</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Listen Filter">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param10</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Freq">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param13</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Threshold">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param0</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Ratio">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Attack">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Makeup">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param6</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Auto Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param4</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Comp Auto Makeup">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param7</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Comp Mix">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param11</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Input">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param9</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 1 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param10</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 1 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param11</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param13</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param14</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 2 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param15</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 2 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param16</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param17</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param18</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param19</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 3 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param20</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 3 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param21</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param22</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param23</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param24</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 4 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param25</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 4 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param26</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param27</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param28</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 1">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 2">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 3">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot3:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 4">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot4:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 5">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot5:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 6">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot6:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 7">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot7:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 8">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot8:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 1 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot1:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 2 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot2:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 3 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot3:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 4 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot4:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 5 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot5:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 6 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot6:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 7 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot7:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 8 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot8:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 1">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 2">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 3">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 4">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl4</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 5">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl5</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 6">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl6</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 7">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl7</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 8">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl8</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Learn Fader 1">
+</entry>
+<entry ctrl="Learn Fader 2">
+</entry>
+<entry ctrl="Learn Fader 3">
+</entry>
+<entry ctrl="Learn Fader 4">
+</entry>
+<entry ctrl="Learn Push 1">
+</entry>
+<entry ctrl="Learn Push 2">
+</entry>
+<entry ctrl="Learn Toggle 1">
+</entry>
+<entry ctrl="Learn Toggle 2">
+</entry>
+</bank>
+<bank name="VST 33-48">
+<entry ctrl="Modulation">
+</entry>
+<entry ctrl="Volume">
+<value><device>VST Mixer</device><chan>-2</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan">
+<value><device>VST Mixer</device><chan>-2</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Mute">
+<value><device>VST Mixer</device><chan>-2</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Record">
+<value><device>Transport</device><chan>-1</chan><tag>4019</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Start">
+<value><device>Transport</device><chan>-1</chan><tag>4015</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Cycle">
+<value><device>Transport</device><chan>-1</chan><tag>4022</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Stop">
+<value><device>Transport</device><chan>-1</chan><tag>4016</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Rewind">
+<value><device>Transport</device><chan>-1</chan><tag>4018</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="F Forward">
+<value><device>Transport</device><chan>-1</chan><tag>4017</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Previous">
+<value><device>Transport</device><chan>-1</chan><tag>4</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Next">
+<value><device>Transport</device><chan>-1</chan><tag>3</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Write">
+<value><device>VST Mixer</device><chan>-2</chan><name>writeEnable</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Read">
+<value><device>VST Mixer</device><chan>-2</chan><name>readEnable</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Solo">
+<value><device>VST Mixer</device><chan>-2</chan><name>solo</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Up">
+<command><category>Navigate</category><action>Up</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Down">
+<command><category>Navigate</category><action>Down</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Left">
+<command><category>Navigate</category><action>Left</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Right">
+<command><category>Navigate</category><action>Right</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Quick">
+<command><category>Inspector</category><action>Toggle Quick Controls Section</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Transpose">
+<command><category>MIDI</category><action>Transpose</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Mixer">
+<command><category>Devices</category><action>Mixer</action><flags>1</flags></command>
+</entry>
+<entry ctrl="VST Instrument">
+<command><category>Edit</category><action>Edit VST Instrument</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Zoom In">
+<command><category>Zoom</category><action>Zoom In</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Zoom out">
+<command><category>Zoom</category><action>Zoom Out</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Undo">
+<command><category>Edit</category><action>Undo</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Delete">
+<command><category>Edit</category><action>Delete</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Mixdown">
+<command><category>File</category><action>Export Audio Mixdown</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Channel Strip">
+<command><category>Edit</category><action>Edit Channel Settings</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Edit">
+<command><category>Edit</category><action>Open</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Exit">
+<command><category>File</category><action>Close</action><flags>1</flags></command>
+</entry>
+<entry ctrl="LED1">
+<value><device>VST Mixer</device><chan>-2</chan><name>allMeter</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Media Bay">
+<command><category>Media</category><action>Open MediaBay</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Monitor">
+<value><device>VST Mixer</device><chan>-2</chan><name>monitor</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Track Name">
+<value><device>Mixer</device><chan>-2</chan><name>selected</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Previous Preset">
+<command><category>Preset</category><action>Previous</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Next Preset">
+<command><category>Preset</category><action>Next</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Gate Threshold">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param0</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Range">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Attack">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Auto Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param4</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Activate Filter">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param9</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Listen Filter">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param10</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Freq">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param13</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Threshold">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param0</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Ratio">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Attack">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Makeup">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param6</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Auto Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param4</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Comp Auto Makeup">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param7</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Comp Mix">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param11</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Input">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param9</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 1 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param10</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 1 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param11</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param13</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param14</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 2 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param15</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 2 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param16</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param17</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param18</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param19</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 3 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param20</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 3 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param21</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param22</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param23</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param24</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 4 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param25</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 4 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param26</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param27</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param28</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 1">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 2">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 3">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot3:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 4">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot4:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 5">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot5:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 6">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot6:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 7">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot7:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 8">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot8:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 1 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot1:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 2 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot2:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 3 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot3:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 4 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot4:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 5 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot5:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 6 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot6:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 7 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot7:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 8 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot8:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 1">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 2">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 3">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 4">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl4</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 5">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl5</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 6">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl6</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 7">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl7</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 8">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl8</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Learn Fader 1">
+</entry>
+<entry ctrl="Learn Fader 2">
+</entry>
+<entry ctrl="Learn Fader 3">
+</entry>
+<entry ctrl="Learn Fader 4">
+</entry>
+<entry ctrl="Learn Push 1">
+</entry>
+<entry ctrl="Learn Push 2">
+</entry>
+<entry ctrl="Learn Toggle 1">
+</entry>
+<entry ctrl="Learn Toggle 2">
+</entry>
+</bank>
+<bank name="VST 49-64">
+<entry ctrl="Modulation">
+</entry>
+<entry ctrl="Volume">
+<value><device>VST Mixer</device><chan>-2</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan">
+<value><device>VST Mixer</device><chan>-2</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Mute">
+<value><device>VST Mixer</device><chan>-2</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Record">
+<value><device>Transport</device><chan>-1</chan><tag>4019</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Start">
+<value><device>Transport</device><chan>-1</chan><tag>4015</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Cycle">
+<value><device>Transport</device><chan>-1</chan><tag>4022</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Stop">
+<value><device>Transport</device><chan>-1</chan><tag>4016</tag><flags>257</flags></value>
+</entry>
+<entry ctrl="Rewind">
+<value><device>Transport</device><chan>-1</chan><tag>4018</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="F Forward">
+<value><device>Transport</device><chan>-1</chan><tag>4017</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Previous">
+<value><device>Transport</device><chan>-1</chan><tag>4</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Next">
+<value><device>Transport</device><chan>-1</chan><tag>3</tag><flags>0</flags></value>
+</entry>
+<entry ctrl="Write">
+<value><device>VST Mixer</device><chan>-2</chan><name>writeEnable</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Read">
+<value><device>VST Mixer</device><chan>-2</chan><name>readEnable</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Solo">
+<value><device>VST Mixer</device><chan>-2</chan><name>solo</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Up">
+<command><category>Navigate</category><action>Up</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Down">
+<command><category>Navigate</category><action>Down</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Left">
+<command><category>Navigate</category><action>Left</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Right">
+<command><category>Navigate</category><action>Right</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Quick">
+<command><category>Inspector</category><action>Toggle Quick Controls Section</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Transpose">
+<command><category>MIDI</category><action>Transpose</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Mixer">
+<command><category>Devices</category><action>Mixer</action><flags>1</flags></command>
+</entry>
+<entry ctrl="VST Instrument">
+<command><category>Edit</category><action>Edit VST Instrument</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Zoom In">
+<command><category>Zoom</category><action>Zoom In</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Zoom out">
+<command><category>Zoom</category><action>Zoom Out</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Undo">
+<command><category>Edit</category><action>Undo</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Delete">
+<command><category>Edit</category><action>Delete</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Mixdown">
+<command><category>File</category><action>Export Audio Mixdown</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Channel Strip">
+<command><category>Edit</category><action>Edit Channel Settings</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Edit">
+<command><category>Edit</category><action>Open</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Exit">
+<command><category>File</category><action>Close</action><flags>1</flags></command>
+</entry>
+<entry ctrl="LED1">
+<value><device>VST Mixer</device><chan>-2</chan><name>allMeter</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Media Bay">
+<command><category>Media</category><action>Open MediaBay</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Monitor">
+<value><device>VST Mixer</device><chan>-2</chan><name>monitor</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Track Name">
+<value><device>Mixer</device><chan>-2</chan><name>selected</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Previous Preset">
+<command><category>Preset</category><action>Previous</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Next Preset">
+<command><category>Preset</category><action>Next</action><flags>1</flags></command>
+</entry>
+<entry ctrl="Gate Threshold">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param0</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Range">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Attack">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Auto Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param4</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Activate Filter">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param9</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Listen Filter">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param10</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Gate Freq">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Gate Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot1:param13</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Threshold">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param0</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Ratio">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Attack">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Makeup">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param6</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Auto Release">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param4</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Comp Auto Makeup">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param7</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Comp Mix">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param11</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Comp Input">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot2:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param9</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 1 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param10</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 1 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param11</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param12</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 1 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param13</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param14</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 2 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param15</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 2 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param16</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param17</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 2 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param18</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param19</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 3 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param20</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 3 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param21</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param22</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 3 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param23</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param24</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Eq 4 Type">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param25</name><flags>1</flags></value>
+</entry>
+<entry ctrl="Eq 4 Gain">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param26</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Frequency">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param27</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Eq 4 Q">
+<value><device>VST Mixer</device><chan>-2</chan><name>strips/slot3:param28</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 1">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 2">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 3">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot3:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 4">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot4:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 5">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot5:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 6">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot6:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 7">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot7:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 8">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot8:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 1 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot1:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 2 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot2:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 3 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot3:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 4 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot4:on</name><flags>256</flags></value>
+</entry>
+<entry ctrl="Send 5 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot5:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 6 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot6:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 7 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot7:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send 8 Enable">
+<value><device>VST Mixer</device><chan>-2</chan><name>sends/slot8:on</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 1">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl1</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 2">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl2</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 3">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl3</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 4">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl4</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 5">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl5</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 6">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl6</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 7">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl7</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Quick Ctl 8">
+<value><device>VST Mixer</device><chan>-2</chan><name>quickControls:QuickControl8</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Learn Fader 1">
+</entry>
+<entry ctrl="Learn Fader 2">
+</entry>
+<entry ctrl="Learn Fader 3">
+</entry>
+<entry ctrl="Learn Fader 4">
+</entry>
+<entry ctrl="Learn Push 1">
+</entry>
+<entry ctrl="Learn Push 2">
+</entry>
+<entry ctrl="Learn Toggle 1">
+</entry>
+<entry ctrl="Learn Toggle 2">
+</entry>
+</bank>
+</remotedescription>
